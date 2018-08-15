@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shelter.thks.mapper.UserMapper">
+
+    <select id="getUserInfo" resultType="com.shelter.thks.vo.UserInfo">
+		SELECT * FROM tb_user_info limit 1
+	</select>
+
+
+</mapper>
